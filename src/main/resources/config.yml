@@ -1,0 +1,104 @@
+#Controls how often the plugin resets its data (in Hours)
+ResetTime: 24
+
+#Controls the player map limit each reset period:
+MapLimit: 6
+
+#Controls when the player will be warned of the map limit.
+WarningCount: 5
+
+#You can turn off messages sent to the players by the plugin
+Messages: true
+
+#The BlackList has nothing to do with keeping your server safe from map overflows. You may ignore it if you wish!
+
+#Blacklist Explanation: Some blocks like chests and doors already cancel map render events if the player right clicks
+#them with an empty map. This list prevents players from unfairly being counted as having rendered a map, even though
+#all they did was open a door or press a button with an Empty Map in their hand. If you have other plugins on your server
+#that add inventories to blocks, you may want to add them to the blacklist.
+
+BlackList:
+  - ACACIA_DOOR
+  - ACACIA_FENCE_GATE
+  - ANVIL
+  - BEACON
+  - BED
+  - BED_BLOCK
+  - BEDROCK
+  - BIRCH_DOOR
+  - BIRCH_FENCE_GATE
+  - BLACK_SHULKER_BOX
+  - BLUE_SHULKER_BOX
+  - BOAT
+  - BOAT_ACACIA
+  - BOAT_BIRCH
+  - BOAT_DARK_OAK
+  - BOAT_JUNGLE
+  - BOAT_SPRUCE
+  - BREWING_STAND
+  - BROWN_SHULKER_BOX
+  - BURNING_FURNACE
+  - CHEST
+  - COMMAND
+  - COMMAND_CHAIN
+  - COMMAND_MINECART
+  - COMMAND_REPEATING
+  - CYAN_SHULKER_BOX
+  - DARK_OAK_DOOR
+  - DARK_OAK_FENCE_GATE
+  - DAYLIGHT_DETECTOR
+  - DAYLIGHT_DETECTOR_INVERTED
+  - DIODE
+  - DIODE_BLOCK_OFF
+  - DIODE_BLOCK_ON
+  - DISPENSER
+  - DROPPER
+  - ENCHANTMENT_TABLE
+  - END_CRYSTAL
+  - ENDER_CHEST
+  - EXPLOSIVE_MINECART
+  - FENCE_GATE
+  - FLOWER_POT
+  - FLOWER_POT_ITEM
+  - FURNACE
+  - GRAY_SHULKER_BOX
+  - GREEN_SHULKER_BOX
+  - HOPPER
+  - HOPPER_MINECART
+  - IRON_DOOR
+  - IRON_DOOR_BLOCK
+  - IRON_FENCE
+  - IRON_TRAPDOOR
+  - ITEM_FRAME
+  - JUNGLE_DOOR
+  - JUNGLE_DOOR_ITEM
+  - JUNGLE_FENCE_GATE
+  - LEVER
+  - LIGHT_BLUE_SHULKER_BOX
+  - LIME_SHULKER_BOX
+  - MAGENTA_SHULKER_BOX
+  - MINECART
+  - NOTE_BLOCK
+  - ORANGE_SHULKER_BOX
+  - PINK_SHULKER_BOX
+  - POWERED_MINECART
+  - PURPLE_SHULKER_BOX
+  - RED_SHULKER_BOX
+  - REDSTONE_COMPARATOR
+  - REDSTONE_COMPARATOR_OFF
+  - REDSTONE_COMPARATOR_ON
+  - SHULKER_SHELL
+  - SIGN
+  - SIGN_POST
+  - SILVER_SHULKER_BOX
+  - SPRUCE_DOOR
+  - SPRUCE_FENCE_GATE
+  - STORAGE_MINECART
+  - TRAP_DOOR
+  - TRAPPED_CHEST
+  - WALL_SIGN
+  - WHITE_SHULKER_BOX
+  - WOODEN_DOOR
+  - WORKBENCH
+  - YELLOW_SHULKER_BOX
+

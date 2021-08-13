@@ -1,0 +1,8 @@
+name: Antimapreset
+version: ${project.version}
+main: me.gamidevmc.antimapreset.Antimapreset
+authors: [ gamidevMC ]
+commands:
+  amrclear:
+    description: Clears maps stats for all players.
+    usage: /amrclear
